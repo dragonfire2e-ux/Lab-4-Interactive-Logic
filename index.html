@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Which Animal Are You?</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+  <h1>Which Animal Are You?</h1>
+
+  <div id="q1">
+    <h2>1. What do you want to do this weekend?</h2>
+    <button onclick="answer(1)">Stay in and relax</button>
+    <button onclick="answer(2)">Explore by myself</button>
+    <button onclick="answer(3)">Go on a big adventure</button>
+  </div>
+
+  <div id="q2">
+    <h2>2. Your group project is behind. What do you do?</h2>
+    <button onclick="answer(1)">Stay calm and do my part</button>
+    <button onclick="answer(2)">Quietly fix it my own way</button>
+    <button onclick="answer(3)">Take charge and assign tasks</button>
+  </div>
+
+  <div id="q3">
+    <h2>3. Pick a perfect evening:</h2>
+    <button onclick="answer(1)">A blanket and a long nap</button>
+    <button onclick="answer(2)">A quiet window seat</button>
+    <button onclick="answer(3)">A sunset from a mountain top</button>
+  </div>
+
+  <div id="result">
+    <h2 id="resultTitle"></h2>
+    <img id="resultImage" src="" alt="Your animal">
+    <button onclick="restart()">Play Again</button>
+  </div>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>

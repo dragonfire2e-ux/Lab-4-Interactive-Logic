@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+button {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  padding: 12px;
+  font-size: 18px;
+}
+
+img {
+  width: 400px;
+  max-width: 90%;
+}
+
+#q2, #q3, #result {
+  display: none;
+}
